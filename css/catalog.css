@@ -1,0 +1,350 @@
+/* 
+
+Template: Real State Website
+Author: Shuvo Mallick
+Description: Real State Template
+Version: 1.0.0
+Keywords: real state, Template etc. 
+
+*/
+
+/* =========== CSS FILES INDEX =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Style CSS ----- */
+/* ----- Home V2 CSS ----- */
+/* ----- Catalog CSS ----- */
+/* ----- Account CSS ----- */
+/* ----- Vendor CSS ----- */
+/* ----- Pages CSS ----- */
+/* =============== CSS FILES INDEX =============== */
+
+/* ===== CATALOG STYLE INDEX ===== */
+/* 
+  1. Property for rent 
+  2. Property for sell 
+  3. Single Property V.1
+  */
+/* ===== CATALOG STYLE INDEX ===== */
+
+/* ================= NEXT CSS FILE ================= */
+/* ----- Account CSS ----- */
+/* ================= NEXT CSS FILE ================= */
+
+/* ================================= */
+/* ===== PROPERTY FOR RENT PAGE ==== */
+/* ================================= */
+.nav-user-pic img {
+  width: 40px;
+}
+
+/* ===== Left Filter Area Section START ===== */
+.left-property-filter {
+  box-shadow: 5px 0 5px -2px rgba(31, 27, 45, 0.08),
+    -5px 0 5px -5px rgba(31, 27, 45, 0.08);
+
+  height: 100%;
+  border-top: 1px solid var(--bs-gray-300);
+}
+
+.filter-header .tab-btn {
+  font-size: 16px;
+}
+
+.filter-heading {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
+
+/* location */
+.filter-location select:required:invalid {
+  color: var(--bs-gray-600);
+}
+
+/* property type */
+.left-property-filter label,
+.left-property-filter .form-check-input {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.form-check-input:checked {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.custom-simplebar {
+  height: 150px;
+  overflow: auto;
+}
+
+.custom-scrollbar {
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--bs-gray-300);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bs-primary);
+  height: 20%;
+  border-radius: 10px;
+}
+
+/* Price per month */
+.form-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: var(--bs-primary);
+}
+
+.form-range:hover::-webkit-slider-thumb {
+  outline: none;
+  box-shadow: none;
+  background: var(--bs-primary);
+}
+
+.filter-price-range {
+  width: 48%;
+}
+
+.filter-price-range span {
+  background-color: var(--bs-white);
+}
+
+.filter-price-range .input-group {
+  height: 44px;
+}
+
+/* Beds & Baths */
+.filter-beds-baths .btn {
+  padding: 6px 16px;
+}
+
+.filter-beds-baths .btn-outline-secondary {
+  border-color: var(--bs-gray-400) !important;
+  color: var(--bs-gray-800) !important;
+}
+
+.filter-beds-baths .btn-outline-secondary:hover {
+  background-color: var(--bs-gray-200) !important;
+}
+
+.filter-beds-baths .active {
+  background-color: var(--bs-gray-200) !important;
+}
+
+.filter-beds-baths label,
+.filter-beds-baths button {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn-primary-outline {
+  padding: 10px 24px;
+}
+/* ===== Left Filter Area Section END ===== */
+
+/* ===== Right Property for Rent Section START ===== */
+.breadcrumb-item > a,
+.breadcrumb-item {
+  color: var(--bs-gray-600);
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.breadcrumb .active {
+  color: var(--bs-primary);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  font-family: "icomoon" !important;
+  content: "\e9c4";
+  padding-top: 1px;
+}
+
+.map-view,
+.map-view i {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-primary);
+}
+
+.sort-form-select {
+  height: 36px !important;
+}
+
+.property-item-sorting hr {
+  width: 70%;
+}
+
+.property-item-sorting label,
+.property-item-sorting .count-result {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.custom-pagination .pagination {
+  gap: 10px;
+}
+
+.custom-pagination .page-link {
+  border: none;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: grid;
+  place-items: center;
+  color: var(--bs-white);
+  border-radius: 50%;
+  color: var(--bs-gray-800);
+  font-size: 16px;
+  transition: all 300ms ease;
+}
+
+.custom-pagination .active,
+.custom-pagination .page-link:hover {
+  background-color: var(--bs-primary) !important;
+  color: var(--bs-white);
+  font-weight: bold;
+  font-size: 16px;
+}
+/* ===== Right Property for Rent Section END ===== */
+/* ===================================== */
+/* ===== PROPERTY FOR RENT PAGE END ==== */
+/* ===================================== */
+
+/* ======================================= */
+/* ===== PROPERTY FOR SALE PAGE START ==== */
+/* ======================================= */
+/* ================================= */
+/* ===== PROPERTY FOR SALE PAGE END ==== */
+/* ================================= */
+
+/* ===================================== */
+/* ===== SINGLE PROPERTY PAGE START ==== */
+/* ===================================== */
+/* ===== Property Heading Section START ===== */
+.single-property-heading .property-address {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.single-property-details .property-details > p {
+  color: var(--bs-gray-700);
+  font-size: 16px;
+  font-weight: 700;
+  border-right: 1px solid var(--bs-gray-300);
+}
+
+.single-property-details .property-details > p:last-child {
+  border-right: none;
+}
+
+.single-property-details .property-details i {
+  color: var(--bs-gray-600);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.single-property-details .property-details span {
+  color: var(--bs-gray-600);
+  font-weight: 500;
+}
+/* ===== Property Heading  Section END ===== */
+
+/* ===== Gellery Section START ===== */
+.apartment-gallery-area .apartment-gallery {
+  cursor: pointer;
+}
+
+.apartment-gallery .gallery::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(var(--bs-black-rgb), 0.5);
+  z-index: 1;
+  border-radius: 12px;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.apartment-gallery:hover .gallery::after {
+  opacity: 1;
+}
+
+.apartment-gallery .gallery-zoom-icon {
+  font-size: 35px;
+  color: var(--bs-white);
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  transform: scale(0);
+  transition: all 300ms ease;
+}
+
+.apartment-gallery:hover .gallery-zoom-icon {
+  transform: scale(1);
+}
+/* ===== Gellery Section END ===== */
+
+/* ===== Left Side Post Content Section START ===== */
+.left-property-post .property-price {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--bs-gray-900);
+}
+
+.left-property-post .property-price {
+  font-weight: 700;
+  font-size: 28px;
+  color: var(--bs-gray-900);
+}
+
+.left-property-post .property-price > span {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.left-property-post .property-details ul li {
+  margin-bottom: 10px;
+}
+
+/* reivew */
+.review-icons i {
+  font-size: 14px;
+}
+
+.review-like-icon button {
+  font-size: 20px;
+  color: var(--bs-gray-600);
+}
+/* ===== Left Side Post Content  Section END ===== */
+
+/* ===== Right Side Section START ===== */
+.card {
+  border: none;
+  box-shadow: var(--shadow-small);
+}
+
+.map .map-button {
+  height: 100%;
+  width: 100%;
+  inset: 0;
+}
+/* ===== Right Side Section END ===== */
+/* ===================================== */
+/* ===== SINGLE PROPERTY PAGE END ==== */
+/* ===================================== */

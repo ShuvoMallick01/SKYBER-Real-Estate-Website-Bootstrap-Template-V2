@@ -1,0 +1,230 @@
+/* 
+
+Template: Real State Website
+Author: Shuvo Mallick
+Description: Real State Template
+Version: 1.0.0
+Keywords: real state, Template etc. 
+
+*/
+
+/* =========== CSS FILES INDEX =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Style CSS ----- */
+/* ----- Home V2 CSS ----- */
+/* ----- Catalog CSS ----- */
+/* ----- Account CSS ----- */
+/* ----- Vendor CSS ----- */
+/* ----- Pages CSS ----- */
+/* =============== CSS FILES INDEX =============== */
+
+/* ===== ACCOUNT STYLE INDEX ===== */
+/* 
+  1. Personal Info CSS
+  2. Security CSS
+  3. My Propertieis
+  4. Wishlist CSS
+  5. Reviews CSS
+  6. Notifications CSS
+  */
+/* ===== ACCOUNT STYLE INDEX ===== */
+
+/* ================= NEXT CSS FILE ================= */
+/* ----- Vendor CSS File ----- */
+/* ================= NEXT CSS FILE ================= */
+
+/* ----- Account -> Personal Info START ----- */
+/* ===== left Account Navbar START ===== */
+.user-pic {
+  width: 48px;
+}
+
+.account-nav i {
+  font-size: 18px;
+}
+
+.account-nav .nav-link:hover,
+.account-nav .nav-link > i:hover {
+  color: var(--bs-primary);
+}
+
+.account-nav .nav-link {
+  transition: all 300ms ease;
+}
+
+.account-nav .nav-link.active {
+  position: relative;
+  color: var(--bs-primary);
+}
+
+.account-nav .nav-link.active::before {
+  position: absolute;
+  top: 0;
+  left: -16px;
+  width: 2px;
+  height: 100%;
+  background-color: #fd5631;
+  content: "";
+}
+/* ===== Left Account Navbar END ===== */
+
+/* ===== Right Account Contents START ===== */
+.account-right-contents .progress {
+  height: 4px;
+}
+
+.account-right-contents label {
+  color: var(--bs-gray-900);
+}
+
+.ac-short-bio .form-control {
+  height: 100%;
+}
+
+.ac-change-picture {
+  border: 1px dashed var(--bs-gray-400);
+  border-radius: 12px;
+  background-color: var(--bs-gray-100);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.ac-change-picture label {
+  cursor: pointer;
+}
+
+.ac-change-picture .contents {
+  height: 100%;
+  width: 100%;
+}
+
+.ac-form-label {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+
+.ac-details-edit i {
+  font-size: 20px;
+  color: var(--bs-gray-800);
+  cursor: pointer;
+}
+
+.ac-form-label.active,
+.ac-details-edit.active i {
+  color: var(--bs-primary);
+}
+
+.custom-form-control {
+  height: 44px;
+}
+
+.form-control::placeholder {
+  color: var(--bs-gray-600);
+}
+
+.social-filed i {
+  color: var(--bs-gray-700);
+}
+
+.custom-text-btn i {
+  font-size: 18px;
+}
+/* ===== Right Account Contents END ===== */
+
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Personal Info END ----- */
+/* ================= CURRENT PAGE NAME ================= */
+
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Password & Security START ----- */
+/* ================= CURRENT PAGE NAME ================= */
+
+.form-input-icon i {
+  font-size: 18px;
+  margin-left: -35px;
+}
+
+.ac-login-history .details h5 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.ac-login-history .details p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+.ac-login-history i {
+  font-size: 24px;
+  color: var(--bs-gray-600);
+}
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> Password & Security END ----- */
+/* ================= CURRENT PAGE NAME ================= */
+.ac-property img {
+  height: 100%;
+  width: 100%;
+}
+/* ================= CURRENT PAGE NAME ================= */
+/* ----- Account -> MY PROPERTIES START ----- */
+/* ================= CURRENT PAGE NAME ================= */
+.ac-my-property button {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.ac-my-property button i {
+  font-weight: 400;
+  font-size: 18px;
+}
+/* ================= MY PROPERTIES PAGE END ================= */
+
+/* ================= WISHLIST PAGE START ================= */
+.ac-property:hover {
+  box-shadow: var(--shadow-default);
+  transition: all 300ms ease;
+}
+
+.favorite-btn-on {
+  background-color: var(--bs-white);
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.favorite-btn-on > i {
+  color: var(--bs-primary);
+}
+
+.favorite-btn-on:hover i {
+  color: var(--bs-white);
+  transition: all 300ms ease;
+}
+/* ================= WISHLIST PAGE END ================= */
+
+/* ================= NOTIFICATION PAGE START ================= */
+.ac-notification-tab h6 {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
+
+.ac-notification-tab p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.ac-notification-tab .form-check-input:checked {
+  background-color: #07c98b !important;
+  border-color: #07c98b !important;
+}
+/* ================= NOTIFICATION PAGE END ================= */

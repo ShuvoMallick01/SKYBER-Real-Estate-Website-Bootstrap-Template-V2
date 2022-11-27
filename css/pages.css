@@ -1,0 +1,348 @@
+/* 
+
+Template: Real State Website
+Author: Shuvo Mallick
+Description: Real State Template
+Version: 1.0.0
+Keywords: real state, Template etc. 
+
+*/
+
+/* =========== CSS Files List =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Style CSS ----- */
+/* ----- Home V2 CSS ----- */
+/* ----- Catalog CSS ----- */
+/* ----- Account CSS ----- */
+/* ----- Vendor CSS ----- */
+/* ----- Pages CSS ----- */
+/* =============== CSS Files List =============== */
+
+/* ===== Style List Table Start ===== */
+/* 
+  1. Blog Page CSS
+  2. Post Page CSS
+  3. About CSS
+  4. Help Center CSS
+  5. Contact CSS
+  6. 404 CSS
+  */
+/* ===== Style List Table End ===== */
+
+/* ===== BLOG START ===== */
+.blog-img img {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.blog-category {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-primary);
+}
+
+.blog-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-800);
+}
+
+.blog-title:hover {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-primary);
+}
+
+.blog-des {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-600) !important;
+}
+
+.blog-author-info {
+  cursor: pointer;
+}
+
+.blog-author-info h4 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+
+.blog-author-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-800);
+}
+
+/* control pannel */
+.blog-control-search .search-icon {
+  margin-top: -30px;
+}
+/* ===== BLOG END ===== */
+
+/* ===== SINGLE BLOG START ===== */
+.post-category {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+
+.post-category:hover {
+  color: var(--bs-primary);
+}
+
+.post-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.blog-post .post-img img {
+  width: 100%;
+}
+
+.blog-post .author-img img {
+  width: 80px;
+}
+
+.right-post-contents .bold-paragraph,
+.blockquote {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--bs-gray-900);
+}
+
+.right-post-contents .comment-title {
+  color: var(--bs-gray-900);
+}
+
+.comment-form-card .form-title {
+  color: var(--bs-gray-900) !important;
+  font-weight: 700;
+  font-size: 28px !important;
+}
+
+.post-form label {
+  color: var(--bs-gray-900);
+}
+
+.post-form textarea {
+  height: 124px;
+}
+/* ===== SINGLE BLOG END ===== */
+
+/* ===== ABOUT PAGE START ===== */
+.about .left-about h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--bs-gray-900);
+}
+
+/* Why Choose us start */
+.why-choose .card-title {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.why-choose .card-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+/* How it Works */
+.how-work h3,
+.team-card h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.step .number-circle {
+  background-color: var(--bs-primary);
+  padding: 12px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.step .number-circle {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Profesional Team */
+.team-card {
+  cursor: pointer;
+}
+
+.team-card:hover {
+  box-shadow: var(--shadow-large);
+  transition: all 300ms ease;
+}
+
+/* Hear from our customers */
+.customer .blockquote > p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--bs-gray-700);
+}
+
+.customer .customer-info > h6 {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
+
+.customer .customer-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+.customer-card .quote-mark {
+  margin-top: -12px;
+}
+
+/* Buy property with confidence START */
+.buy-property .contents {
+  background-color: var(--bs-gray-200);
+}
+
+.buy-property .contents h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.buy-property .left-contents {
+  max-width: 526px;
+}
+
+.buy-property .right-img {
+  margin-top: -38px;
+}
+
+/* Our recent highlights START */
+.recent-post .blog-category {
+  font-size: 12px;
+}
+
+.recent-post .blog-title {
+  font-size: 16px;
+}
+
+.recent-post .author-info h4 {
+  font-size: 14px;
+  margin-bottom: 2px !important;
+}
+/* ===== ABOUT PAGE END ===== */
+
+/* ===== HELP CENTER START ===== */
+.help-center .form-group {
+  padding: 8px;
+  border: 1px solid var(--bs-gray-300);
+  border-radius: 8px;
+}
+
+.help-center .btn-lg {
+  padding: 14px 32px !important;
+}
+
+.help-contents h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.custom-tabs {
+  width: 100%;
+}
+/* ===== HELP CENTER EMD ===== */
+
+/* ===== CONTACT START ===== */
+.contact-page .contact-form {
+  background-color: var(--bs-gray-200);
+}
+
+.contact-page .contact-form label {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-900);
+}
+
+.contact-page .contact-form textarea {
+  height: 128px;
+}
+
+.contact-card h3 {
+  font-weight: 700;
+  font-size: 24px !important;
+  color: var(--bs-gray-800);
+}
+
+.contact-card i {
+  font-size: 20px !important;
+}
+
+.contact-card i:hover {
+  color: var(--bs-white) !important;
+}
+
+.contact-card span {
+  font-weight: 400;
+  font-size: 16px !important;
+  color: var(--bs-gray-700) !important;
+}
+
+.contact-card:hover {
+  box-shadow: var(--shadow-default);
+}
+/* ===== CONTACT END ===== */
+
+/* ===== 404 START ===== */
+.four-hundred-four .left-side {
+  background-color: var(--bs-gray-900);
+  min-height: 100vh;
+  height: 100% !important;
+}
+
+@media (max-width: 2000px) {
+  .four-hundred-four .left-side {
+    padding-left: 40% !important;
+  }
+
+  .right-side-img img {
+    margin-right: 20%;
+  }
+}
+
+@media (max-width: 1300px) {
+  .four-hundred-four .left-side {
+    padding-left: 25px !important;
+  }
+}
+
+.four-hundred-four .left-side h1 {
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.four-hundred-four .left-side p {
+  width: 80%;
+}
+
+.btn-outline-light:hover {
+  color: var(--bs-white) !important;
+  border: 1px solid var(--bs-primary) !important;
+}
+
+/* right */
+.four-hundred-four .right-side-img img {
+  max-width: 636px;
+  width: 100%;
+}
+/* ===== 404 END ===== */

@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom icons -->
+    <link rel="stylesheet" href="./assets/icons.css" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>About</title>
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <header class="header-area">
+      <nav class="navbar navbar-expand-lg custom-header">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"
+            ><img
+              src="./assets/images/logo-finder.svg"
+              class="img-fluid"
+              alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Side Menu -->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom-menu">
+              <!-- Language Change Menu -->
+              <li class="nav-item dropdown px-3 menu-language">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img
+                    src="./assets/images/icons/united-states 1.svg"
+                    class="img-fluid"
+                    alt="United State Flag"
+                  />
+                  Eng
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">BN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">ES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="#">AR</a>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Home menu item -->
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+
+              <!-- Catalog menu items -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Property
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./property-for-rent.html"
+                      >Property for Rent</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./property-for-sale.html"
+                      >Property for Sell</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <!-- Account menu item -->
+              <li class="nav-item dropdown px-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Account
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#sign-in-Modal"
+                      >Sign In</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      data-bs-toggle="modal"
+                      data-bs-target="#signup-Modal"
+                      >Sign Up</a
+                    >
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./personal-info.html"
+                      >Personal Info</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./security.html">Security</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./my-properties.html"
+                      >My Properties</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./wishlist.html">Wishlist</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./ac-reviews.html"
+                      >Reviews</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="dropdown-item" href="./notifications.html"
+                      >Notifications</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link active" href="./about.html">About</a>
+              </li>
+
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+
+              <li class="nav-item dropdown px-2">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+
+            <!-- MODAL SIGN IN START -->
+            <div
+              class="modal fade"
+              id="sign-in-Modal"
+              tabindex="-1"
+              aria-labelledby="sign-in-ModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <!-- start -->
+                  <div class="modal-body px-0 py-0">
+                    <button
+                      class="btn-close position-absolute top-0 end-0 mt-3 me-3"
+                      type="button"
+                      data-bs-dismiss="modal"
+                    ></button>
+
+                    <!-- contents -->
+                    <div class="row sign-in-modal mx-0 align-items-center">
+                      <!-- left side -->
+                      <div class="col-md-6 p-3 p-lg-5 border-right">
+                        <div class="left-contents">
+                          <h2 class="modal-title mb-4 mb-sm-5">
+                            Hey there!<br />Welcome back.
+                          </h2>
+                          <img
+                            class="d-block mx-auto"
+                            src="./assets/images/sign-in-illustration.svg"
+                            width="344"
+                            alt="Illustartion"
+                          />
+                          <div class="dont-have mt-4">
+                            Don't have an account?
+                            <a
+                              href="#signup-Modal"
+                              data-bs-toggle="modal"
+                              data-bs-dismiss="modal"
+                              >Sign up here</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- right side -->
+                      <div class="col-md-6 px-4 p-3 p-lg-5">
+                        <div class="right-contents">
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-google me-1"></i>Sign in with Google
+                          </button>
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-Facebook-white-bg me-1"></i>Sign in
+                            with Facebook
+                          </button>
+
+                          <div class="d-flex align-items-center py-2 mb-1">
+                            <hr class="w-100" />
+                            <p class="or px-3">Or</p>
+                            <hr class="w-100" />
+                          </div>
+
+                          <form class="sign-in-form">
+                            <div class="mb-4">
+                              <label class="form-label mb-2" for="signin-email"
+                                >Email address</label
+                              >
+                              <input
+                                class="form-control"
+                                type="email"
+                                id="signin-email"
+                                placeholder="Enter your email"
+                                required=""
+                              />
+                            </div>
+
+                            <div class="mb-4">
+                              <div
+                                class="d-flex align-items-center justify-content-between mb-0"
+                              >
+                                <label
+                                  class="form-label mb-2"
+                                  for="signin-password"
+                                  >Password</label
+                                >
+                                <a class="forgot-pass" href="#"
+                                  >Forgot password?</a
+                                >
+                              </div>
+
+                              <div
+                                class="form-input-icon d-flex align-items-center"
+                              >
+                                <input
+                                  class="form-control custom-form-control"
+                                  type="password"
+                                  id="signin-password"
+                                  placeholder="Enter password"
+                                  required=""
+                                />
+                                <i class="icon-off"></i>
+                              </div>
+                            </div>
+
+                            <button
+                              class="btn btn-primary btn-lg w-100"
+                              type="submit"
+                            >
+                              Sign in
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                      <!-- end row -->
+                    </div>
+                  </div>
+                  <!-- end -->
+                </div>
+              </div>
+            </div>
+            <!-- MODAL SIGN IN  END -->
+
+            <!-- MODAL SIGN UP START -->
+            <div
+              class="modal fade"
+              id="signup-Modal"
+              tabindex="-1"
+              aria-labelledby="signup-ModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <!-- start -->
+                  <div class="modal-body px-0 py-0">
+                    <button
+                      class="btn-close position-absolute top-0 end-0 mt-3 me-3"
+                      type="button"
+                      data-bs-dismiss="modal"
+                    ></button>
+
+                    <!-- MODAL contents -->
+                    <div class="row signup-modal mx-0 align-items-center">
+                      <!-- left MODAL side -->
+                      <div class="col-md-6 p-3 p-lg-5 border-right">
+                        <div class="left-contents">
+                          <h2 class="modal-title mb-4 mb-sm-5">
+                            Join Finder.<br />
+                            premium benefits:
+                          </h2>
+
+                          <ul class="left-list list-unstyled mb-4">
+                            <li class="d-flex mb-2">
+                              <i class="icon-circle text-primary mt-1 me-2"></i
+                              ><span>Add and promote your listings</span>
+                            </li>
+                            <li class="d-flex mb-2">
+                              <i class="icon-circle text-primary mt-1 me-2"></i
+                              ><span>Easily manage your wishlist</span>
+                            </li>
+                            <li class="d-flex mb-0">
+                              <i class="icon-circle text-primary mt-1 me-2"></i
+                              ><span>Leave reviews</span>
+                            </li>
+                          </ul>
+
+                          <img
+                            class="d-block mx-auto"
+                            src="./assets/images/sign-up-illustration.svg"
+                            width="344"
+                            alt="Illustartion"
+                          />
+
+                          <div class="dont-have mt-4">
+                            Already have an account?
+                            <a
+                              href="#sign-in-Modal"
+                              data-bs-toggle="modal"
+                              data-bs-dismiss="modal"
+                              >Sign In</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- right MODAL side -->
+                      <div class="col-md-6 px-4 p-3 p-lg-5">
+                        <div class="right-contents">
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-google me-1"></i>Sign in with Google
+                          </button>
+                          <button
+                            class="btn btn-outline-info mb-3 w-100"
+                            href="#"
+                          >
+                            <i class="icon-Facebook-white-bg me-1"></i>Sign in
+                            with Facebook
+                          </button>
+
+                          <div class="d-flex align-items-center py-2 mb-0">
+                            <hr class="w-100" />
+                            <p class="or px-3">Or</p>
+                            <hr class="w-100" />
+                          </div>
+
+                          <form class="signup-form" novalidate="">
+                            <div class="mb-2">
+                              <label class="form-label" for="signup-name"
+                                >Full Name</label
+                              >
+                              <input
+                                class="form-control"
+                                type="text"
+                                id="signup-name"
+                                placeholder="Enter your full name"
+                                required=""
+                              />
+                            </div>
+
+                            <div class="mb-2">
+                              <label class="form-label" for="signup-email"
+                                >Email Address</label
+                              >
+                              <input
+                                class="form-control"
+                                type="email"
+                                id="signup-email"
+                                placeholder="Enter your email"
+                                required=""
+                              />
+                            </div>
+
+                            <div class="mb-2">
+                              <label class="form-label" for="signup-password"
+                                >Password
+                                <span class="text-muted"
+                                  >(min. 8 char)</span
+                                ></label
+                              >
+
+                              <div
+                                class="form-input-icon d-flex align-items-center"
+                              >
+                                <input
+                                  class="form-control custom-form-control"
+                                  type="password"
+                                  id="signup-password"
+                                  required=""
+                                />
+                                <i class="icon-off"></i>
+                              </div>
+                            </div>
+
+                            <div class="mb-3">
+                              <label
+                                class="form-label"
+                                for="signup-confirm-password"
+                                >Confirm Password
+                              </label>
+
+                              <div
+                                class="form-input-icon d-flex align-items-center"
+                              >
+                                <input
+                                  class="form-control custom-form-control"
+                                  type="password"
+                                  id="signup-confirm-password"
+                                  required=""
+                                />
+                                <i class="icon-off"></i>
+                              </div>
+                            </div>
+
+                            <div class="form-check mb-4">
+                              <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="agree-to-terms"
+                                required=""
+                              />
+                              <label
+                                class="form-check-label"
+                                for="agree-to-terms"
+                                >By joining, I agree to the
+                                <a href="#">Terms of use</a> and
+                                <a href="#">Privacy policy</a></label
+                              >
+                            </div>
+                            <button
+                              class="btn btn-primary btn-lg w-100"
+                              type="submit"
+                            >
+                              Sign up
+                            </button>
+                          </form>
+                        </div>
+                      </div>
+                      <!-- end row -->
+                    </div>
+                  </div>
+                  <!-- end -->
+                </div>
+              </div>
+            </div>
+            <!-- MODAL SIGN UP END -->
+
+            <!-- RIGHT nav -->
+            <div class="d-flex gap-4 align-items-center">
+              <div class="nav-user-pic m-0 p-0">
+                <a href="personal-info.html"
+                  ><img
+                    src="./assets/images/user/shuvo-mallick-pic.png"
+                    class="img-fluid"
+                    alt="User Picture"
+                /></a>
+              </div>
+              <a
+                class="btn btn-primary custom-btn flex-shrink-0"
+                href="./add-property.html"
+              >
+                <i class="fa-regular fa-plus"></i> Add Property
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- ABOUT START -->
+    <section class="about-area mt-3 pb-lg-4">
+      <div class="container">
+        <div class="row gy-4 gy-lg-0">
+          <!-- Breadcrumb -->
+          <nav class="mb-2 pt-md-3" aria-label="Breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="index.html" class="">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
+          </nav>
+
+          <!-- Hero Area -->
+          <div
+            class="row about align-items-center justify-content-center gy-md-0 gy-4"
+          >
+            <div
+              class="left-about col-lg-4 col-md-5 col-sm-9 order-md-1 text-md-start text-center"
+            >
+              <h1 class="mb-4">About Finder</h1>
+              <p class="mb-4 pb-3 fs-lg">
+                We provide a complete service for the sale, purchase or rental
+                of real estate. We have been operating more than 10 years.
+                Search millions of apartments and houses on Finder.
+              </p>
+              <a class="btn btn-lg btn-primary" href="#">Contact us</a>
+            </div>
+
+            <div class="col-lg-7 col-md-6 offset-md-1 col-12 order-2">
+              <img
+                class="img-fluid rounded-3"
+                src="./assets/images/about/about-property.png"
+                alt=" Property image"
+              />
+            </div>
+          </div>
+
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT END -->
+
+    <!-- Why choose us START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="heading-title mb-4">Why choose us?</h2>
+
+          <!-- Features carousel-->
+          <!-- single feature -->
+          <div class="why-choose col-lg-4 col-md-6">
+            <div class="card border-0">
+              <div class="card-body">
+                <img
+                  class="img-fluid mb-3"
+                  src="./assets/images/about/safety-priority.svg"
+                  alt="icon"
+                />
+                <h3 class="card-title pb-1">Safety is our priority</h3>
+                <p class="card-text">
+                  Vel et aliquet diam vulputate hendrerit lorem eget amet
+                  adipiscing. At ut ut consectetur in sed massa arcu risus sed.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- single feature -->
+          <div class="why-choose col-lg-4 col-md-6">
+            <div class="card border-0">
+              <div class="card-body">
+                <img
+                  class="mb-3"
+                  src="./assets/images/about/safety-priority.svg"
+                  alt="icon"
+                />
+                <h3 class="card-title pb-1">Fair price</h3>
+                <p class="card-text">
+                  Tincidunt mauris sit eu, lacinia pharetra, lorem neque dui.
+                  Maecenas ultricies laoreet facilisis fusce amet, consequat
+                  neque.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- single feature -->
+          <div class="why-choose col-lg-4 col-md-6">
+            <div class="card border-0">
+              <div class="card-body">
+                <img
+                  class="mb-3"
+                  src="./assets/images/about/support.svg"
+                  alt="icon"
+                />
+                <h3 class="card-title pb-1">Support 24/7</h3>
+                <p class="card-text">
+                  Id velit, dui condimentum dictumst sapien quis a elementum
+                  dignissim. Dignissim ultrices scelerisque ultrices nisi.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- Why choose us END -->
+
+    <!-- How it Works START -->
+    <section class="how-it-works py-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="heading-title mb-4">Why choose us?</h2>
+
+          <!-- illustration -->
+          <div class="col-md-5">
+            <img
+              class="img-fluid d-block mx-auto"
+              src="./assets/images/about/illustration-steps.svg"
+              alt="Illustration"
+            />
+          </div>
+
+          <!-- Steps -->
+          <div class="how-work col-lg-6 offset-lg-1 col-md-7">
+            <h2 class="heading-title mb-sm-5">How it works</h2>
+
+            <!-- single step -->
+            <div class="steps mb-sm-5">
+              <div class="step d-flex align-item-start">
+                <div
+                  class="number-circle d-flex shadow-sm align-items-center justify-content-center"
+                >
+                  <span class="step-number text-light">1</span>
+                </div>
+                <div class="step-label ms-3">
+                  <h3 class="h5 mb-2 pb-1">Choose your property</h3>
+                  <p class="mb-0">
+                    Odio velit, massa augue etiam in parturient volutpat orci.
+                    Pulvinar amet, at est ac curabitur mauris, semper cursus
+                    metus. Imperdiet sed massa amet at turpis. Dis risus, donec
+                    in ac ultricies tempor eu, amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- single step -->
+            <div class="steps mb-sm-5">
+              <div class="step d-flex align-item-start">
+                <div
+                  class="number-circle d-flex shadow-sm align-items-center justify-content-center"
+                >
+                  <span class="step-number text-light">2</span>
+                </div>
+                <div class="step-label ms-3">
+                  <h3 class="h5 mb-2 pb-1">See the property directly</h3>
+                  <p class="mb-0">
+                    Id orci senectus dignissim magna nec diam bibendum at. Morbi
+                    quis turpis nulla condimentum est elementum. Tristique in
+                    accumsan eget vestibulum volutpat pretium. Sed id elit duis
+                    turpis diam justo. Dignissim blandit rutrum venenatis.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- single step -->
+            <div class="steps mb-sm-2">
+              <div class="step d-flex align-item-start">
+                <div
+                  class="number-circle d-flex shadow-sm align-items-center justify-content-center"
+                >
+                  <span class="step-number text-light">3</span>
+                </div>
+                <div class="step-label ms-3">
+                  <h3 class="h5 mb-2 pb-1">Easy payment</h3>
+                  <p class="mb-0">
+                    Odio velit, massa augue etiam in parturient volutpat orci.
+                    Pulvinar amet, at est ac curabitur mauris, semper cursus
+                    metus. Imperdiet sed massa amet at turpis. Dis risus, donec
+                    in ac ultricies tempor eu, amet.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- end step -->
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- How it Works END -->
+
+    <!-- Meet our professional team START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="heading-title mb-4">Meet our professional team</h2>
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card team-card border-0 shadow-sm">
+              <img
+                class="card-img-top"
+                src="./assets/images/about/team-1.png"
+                alt="Team Picture"
+              />
+
+              <!-- contents -->
+              <div class="card-body text-center">
+                <h3 class="card-title mb-2">Devon Lane</h3>
+                <span class="d-inline-block mb-3">Real Estate Agent</span>
+
+                <div
+                  class="custom-social-icons d-flex gap-2 mt-1 justify-content-center"
+                >
+                  <i class="icon-Facebook-white-bg rounded-circle"></i>
+                  <i class="icon-twitter rounded-circle"></i>
+                  <i class="icon-instagram rounded-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card team-card border-0 shadow-sm">
+              <img
+                class="card-img-top"
+                src="./assets/images/about/team-2.png"
+                alt="Team Picture"
+              />
+
+              <!-- contents -->
+              <div class="card-body text-center">
+                <h3 class="card-title mb-2">Dianne Russell</h3>
+                <span class="d-inline-block mb-3">Finance Director</span>
+
+                <div
+                  class="custom-social-icons d-flex gap-2 mt-1 justify-content-center"
+                >
+                  <i class="icon-Facebook-white-bg rounded-circle"></i>
+                  <i class="icon-twitter rounded-circle"></i>
+                  <i class="icon-instagram rounded-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6 mt-4">
+            <div class="card team-card border-0 shadow-sm">
+              <img
+                class="card-img-top"
+                src="./assets/images/about/team-3.png"
+                alt="Team Picture"
+              />
+
+              <!-- contents -->
+              <div class="card-body text-center">
+                <h3 class="card-title mb-2">Ronald Richards</h3>
+                <span class="d-inline-block mb-3">Sales Executive</span>
+
+                <div
+                  class="custom-social-icons d-flex gap-2 mt-1 justify-content-center"
+                >
+                  <i class="icon-Facebook-white-bg rounded-circle"></i>
+                  <i class="icon-twitter rounded-circle"></i>
+                  <i class="icon-instagram rounded-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- single card -->
+          <div class="col-lg-3 col-md-6">
+            <div class="card team-card border-0 shadow-sm">
+              <img
+                class="card-img-top"
+                src="./assets/images/about/team-4.png"
+                alt="Team Picture"
+              />
+
+              <!-- contents -->
+              <div class="card-body text-center">
+                <h3 class="card-title mb-2">Albert Flores</h3>
+                <span class="d-inline-block mb-3">Property Manager</span>
+
+                <div
+                  class="custom-social-icons d-flex gap-2 mt-1 justify-content-center"
+                >
+                  <i class="icon-Facebook-white-bg rounded-circle"></i>
+                  <i class="icon-twitter rounded-circle"></i>
+                  <i class="icon-instagram rounded-circle"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- Meet our professional team END -->
+
+    <!-- Our partners START -->
+    <section class="py-5 our-partners">
+      <div class="container">
+        <div class="row gy-4 gy-lg-0">
+          <h2 class="heading-title mb-4 text-center">Our partners</h2>
+          <!-- Single Logo -->
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
+            <img
+              src="./assets/images/partners/our-partners-1.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <!-- Single Logo -->
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
+            <img
+              src="./assets/images/partners/our-partners-2.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <!-- Single Logo -->
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
+            <img
+              src="./assets/images/partners/our-partners-3.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <!-- Single Logo -->
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
+            <img
+              src="./assets/images/partners/our-partners-4.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <!-- Single Logo -->
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
+            <img
+              src="./assets/images/partners/our-partners-5.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+
+          <!-- Single Logo -->
+          <div class="our-partner col-lg-2 col-sm-4 col-6 text-center">
+            <img
+              src="./assets/images/partners/our-partners-6.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Our partners END -->
+
+    <!-- Hear from our customers START -->
+    <section class="customer py-5">
+      <div class="container">
+        <div class="row">
+          <h2 class="heading-title mb-4 text-center">
+            Hear from our customers
+          </h2>
+
+          <div
+            class="d-flex flex-md-row flex-column align-items-md-start mx-5 px-5 py-3"
+          >
+            <!-- d-md-block d-none -->
+            <img
+              class="img-fluid me-4 rounded-3"
+              src="./assets/images/about/custom-review.png"
+              width="306"
+              alt="Customer image"
+            />
+
+            <div class="card customer-card border-0 shadow-sm h-100">
+              <blockquote class="blockquote card-body position-relative">
+                <img
+                  class="quote-mark position-absolute top-0 end-0 me-4"
+                  src="./assets/images/post/quote-mark.svg"
+                  width=""
+                  alt="Quote"
+                />
+
+                <p class="mt-4">
+                  Eu massa, pharetra massa integer. Sed molestie sollicitudin
+                  morbi ultrices. Odio is euismodtelle faucibus. Venenatis nunc,
+                  tristique turpis cras sodales. In dui, viverra et ac.
+                  Id justo, varius nunc, faucibus erat proin elit. Amet diam,
+                  aliquet nec quis vel. Donec ut quisque in lorem sapien.
+                </p>
+
+                <footer class="d-flex align-items-center mt-4">
+                  <img
+                    src="./assets/images/about/Zalo-Tech-logo.png"
+                    width="56"
+                    alt="Logo"
+                  />
+
+                  <div class="customer-info ps-3">
+                    <h6 class="mb-1">Zalo Tech Company</h6>
+                    <p class="mb-0">Floyd Miles, Head of HR Department</p>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- Hear from our customers END -->
+
+    <!-- Buy property with confidence START -->
+    <section class="buy-property py-5">
+      <div class="container">
+        <div class="row contents">
+          <div
+            class="col-md-11 col-12 offset-md-1 d-flex align-items-center justify-content-between"
+          >
+            <div class="left-contents me-md-4 py-md-5 p-3">
+              <h2 class="mb-4">
+                Buy property with confidence. <br />
+                Sell without pressure.
+              </h2>
+              <p class="mb-4 pb-md-3">
+                Amet libero morbi venenatis ut est. Iaculis leo ultricies nunc
+                id ante adipiscing. Vel metus odio at faucibus ac.
+              </p>
+              <a
+                class="btn btn-lg btn-primary"
+                href="real-estate-catalog-sale.html"
+                ><i class="icon-search me-2"></i>Find property</a
+              >
+            </div>
+
+            <div class="right-img col-4 d-md-block d-none align-self-end px-0">
+              <img
+                class="img-fluid"
+                src="./assets/images/about/buy-property.png"
+                width="406"
+                alt="Cover image"
+              />
+            </div>
+          </div>
+
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- Buy property with confidence END -->
+
+    <!-- Our recent highlights START -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div
+            class="heading d-flex justify-content-between align-items-center mb-4"
+          >
+            <h2 class="heading-title mb-4">Our recent highlights</h2>
+            <a href="blog.html"
+              ><span>Go to blog</span> <i class="icon-long-right"></i
+            ></a>
+          </div>
+
+          <!-- Start Grid -->
+          <div class="row recent-post gy-3 gy-md-0">
+            <!-- single Blog -->
+            <article class="col-md-6 col-lg-4 pb-2">
+              <div class="blog-img position-relative mb-3">
+                <!-- <span class="badge bg-info position-absolute top-0 end-0 m-3"
+                  >New</span
+                > -->
+                <img
+                  class="rounded-3 img-fluid"
+                  src="./assets/images/blog/blog-pg-5.png"
+                  alt="Blog Post"
+                />
+              </div>
+
+              <a
+                class="blog-category text-uppercase text-decoration-none"
+                href="#"
+                >Inspiration</a
+              >
+              <h3 class="blog-title mb-2 pt-1">
+                <a class="nav-link" href="#"
+                  >When Is the Right Time to Downsize Your Home?</a
+                >
+              </h3>
+
+              <!-- author info -->
+              <div
+                class="blog-author-info d-flex align-content-center gap-2 mt-3 mb-4"
+              >
+                <div class="author-img">
+                  <img
+                    src="./assets/images/home-v2/news-author-pic-2.png"
+                    class="img-fluid"
+                    alt="News Author"
+                  />
+                </div>
+
+                <div class="author-info">
+                  <h4>Annette Black</h4>
+                  <div class="news-date d-flex gap-4 m-0 p-0">
+                    <p class="m-0 p-0"><i class="icon-date"></i> Jan 20</p>
+                    <p class="m-0 p-0"><i class="icon-left"></i> 0 comments</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- single Blog -->
+            <article class="col-md-6 col-lg-4 pb-2">
+              <div class="blog-img position-relative mb-3">
+                <!-- <span class="badge bg-info position-absolute top-0 end-0 m-3"
+                  >New</span
+                > -->
+                <img
+                  class="rounded-3 img-fluid"
+                  src="./assets/images/blog/blog-pg-4.png"
+                  alt="Blog Post"
+                />
+              </div>
+
+              <a
+                class="blog-category text-uppercase text-decoration-none"
+                href="#"
+                >Inspiration</a
+              >
+              <h3 class="blog-title mb-2 pt-1">
+                <a class="nav-link" href="#"
+                  >When Is the Right Time to Downsize Your Home?</a
+                >
+              </h3>
+
+              <!-- author info -->
+              <div
+                class="blog-author-info d-flex align-content-center gap-2 mt-3 mb-4"
+              >
+                <div class="author-img">
+                  <img
+                    src="./assets/images/home-v2/news-author-pic-2.png"
+                    class="img-fluid"
+                    alt="News Author"
+                  />
+                </div>
+
+                <div class="author-info">
+                  <h4>Annette Black</h4>
+                  <div class="news-date d-flex gap-4 m-0 p-0">
+                    <p class="m-0 p-0"><i class="icon-date"></i> Jan 20</p>
+                    <p class="m-0 p-0"><i class="icon-left"></i> 0 comments</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- single Blog -->
+            <article class="col-md-6 col-lg-4 pb-2">
+              <div class="blog-img position-relative mb-3">
+                <!-- <span class="badge bg-info position-absolute top-0 end-0 m-3"
+                  >New</span
+                > -->
+                <img
+                  class="rounded-3 img-fluid"
+                  src="./assets/images/blog/blog-pg-3.png"
+                  alt="Blog Post"
+                />
+              </div>
+
+              <a
+                class="blog-category text-uppercase text-decoration-none"
+                href="#"
+                >Inspiration</a
+              >
+              <h3 class="blog-title mb-2 pt-1">
+                <a class="nav-link" href="#"
+                  >When Is the Right Time to Downsize Your Home?</a
+                >
+              </h3>
+
+              <!-- author info -->
+              <div
+                class="blog-author-info d-flex align-content-center gap-2 mt-3 mb-4"
+              >
+                <div class="author-img">
+                  <img
+                    src="./assets/images/home-v2/news-author-pic-2.png"
+                    class="img-fluid"
+                    alt="News Author"
+                  />
+                </div>
+
+                <div class="author-info">
+                  <h4>Annette Black</h4>
+                  <div class="news-date d-flex gap-4 m-0 p-0">
+                    <p class="m-0 p-0"><i class="icon-date"></i> Jan 20</p>
+                    <p class="m-0 p-0"><i class="icon-left"></i> 0 comments</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- end row -->
+        </div>
+      </div>
+    </section>
+    <!-- Our recent highlights END -->
+
+    <!-- Footer START -->
+    <footer class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Social Media Column -->
+          <div class="footer-contact col-lg-3 col-sm-6 col-12 mb-3">
+            <img
+              src="./assets/images/logo-finder.svg"
+              class="img-fluid mb-3"
+              alt="Logo"
+            />
+            <p class="m-0 mb-1"><i class="icon-mail"></i> example@gmail.com</p>
+            <p><i class="icon-phone-1"></i> (406) 555-0120</p>
+
+            <div class="custom-social-icons d-flex gap-2 mt-4">
+              <i class="icon-Facebook-white-bg rounded-circle"></i>
+              <i class="icon-twitter rounded-circle"></i>
+              <i class="icon-whatsapp rounded-circle"></i>
+              <i class="icon-telegram-1 rounded-circle"></i>
+            </div>
+          </div>
+
+          <!-- Quick Links-Column -->
+          <div class="custom-footer-quick-link col-lg-2 col-sm-6 col-12 mb-3">
+            <h4 class="footer-heading pb-2">Quick Links</h4>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Buy a property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Sell a property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Rent a property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Сalculate your property</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Top offers</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Top cities</a
+              >
+            </p>
+          </div>
+
+          <!-- About Column -->
+          <div class="custom-footer-about-link col-lg-2 col-sm-6 col-12 mb-3">
+            <h4 class="footer-heading pb-2">About</h4>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >About Us</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Our agents</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Hepl & support</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >Contacts</a
+              >
+            </p>
+            <p class="m-0 p-0">
+              <a href="#" class="text-black" style="text-decoration: none"
+                >News</a
+              >
+            </p>
+          </div>
+
+          <!-- Featured News Column -->
+          <div class="footer-featured-newses col-md-5 mb-5">
+            <h4 class="footer-heading pb-2">Featured News</h4>
+            <!-- Single News -->
+            <div
+              class="featured-news col-12 mb-4 d-flex justify-content-between"
+            >
+              <div class="featured-news-img col-2">
+                <img
+                  src="./assets/images/news/featured-news-2.png"
+                  class="img-fluid"
+                  alt="Featured News"
+                />
+              </div>
+
+              <div class="featured-news-info col-sm-10 pe-3">
+                <p class="m-0 mb-1 p-0">HOME IMPROVEMENT</p>
+                <h3>Your Guide to a Smart Apartment Searching</h3>
+                <p class="text-muted news-description m-0 mb-3">
+                  Mi justo, varius vitae cursus ipsum sem massa amet
+                  pellentesque. Ipsum enim sit nulla ridiculus semper nam...
+                </p>
+
+                <div class="featured-news-date d-flex gap-4 m-0 p-0">
+                  <p class="m-0 p-0"><i class="icon-date"></i> Dec 4</p>
+                  <p class="m-0 p-0"><i class="icon-left"></i> 2 comments</p>
+                </div>
+              </div>
+            </div>
+
+            <hr class="footer-news-divider" />
+
+            <!-- Single News -->
+            <div
+              class="featured-news col-12 mb-3 mt-4 d-flex justify-content-between"
+            >
+              <div class="featured-news-img col-2">
+                <img
+                  src="./assets/images/news/featured-news-1.png"
+                  class="img-fluid"
+                  alt="Featured News"
+                />
+              </div>
+
+              <div class="featured-news-info col-sm-10 pe-3">
+                <p class="m-0 mb-1 p-0">TIPS & ADVICE</p>
+                <h3>Top 10 Ways to Refresh Your Space</h3>
+                <p class="text-muted news-description m-0 mb-3">
+                  Volutpat, orci, vitae arcu feugiat vestibulum ultricies nisi,
+                  aenean eget. Vitae enim, tellus tempor consequat mi vitae...
+                </p>
+
+                <div class="featured-news-date d-flex gap-4 m-0 p-0">
+                  <p class="m-0 p-0"><i class="icon-date"></i> Nov 24</p>
+                  <p class="m-0 p-0"><i class="icon-left"></i> No comments</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Featured -->
+          </div>
+          <!-- End -->
+        </div>
+
+        <!-- Download Our App -->
+        <div
+          class="row custom-download-our-app justify-content-center align-items-center"
+        >
+          <div class="custom-download-app-artwork col-md-3 text-center">
+            <img
+              src="./assets/images/illustration/download-our-app.svg"
+              class="img-fluid"
+              alt="Download Our App"
+            />
+          </div>
+
+          <div
+            class="download-app-info-icon col-lg-9 d-flex flex-lg-row flex-column justify-content-center align-content-center text-center text-lg-start"
+          >
+            <!-- info -->
+            <div class="download-app-info col-lg-6 pt-3 pb-1 px-3">
+              <h4 class="mb-3">Download Our App</h4>
+              <p>
+                Find everything you need for buying, selling <br />
+                & renting property in our new Finder App!
+              </p>
+            </div>
+
+            <!-- icons -->
+            <div
+              class="custom-download-app-store-icon col-lg-6 d-flex p-lg-3 pb-4 d-flex gap-4 justify-content-lg-start justify-content-center align-items-center"
+            >
+              <img
+                src="./assets/images/icons/app-store.png"
+                class="img-fluid"
+                alt="Download Our App"
+              />
+              <img
+                src="./assets/images/icons/google-play.png"
+                class="img-fluid"
+                alt="Download Our App"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer END -->
+
+    <!-- Bootstrap JS JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

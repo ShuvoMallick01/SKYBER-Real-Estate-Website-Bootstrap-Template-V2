@@ -1,0 +1,457 @@
+/* 
+
+Template: Real State Website
+Author: Shuvo Mallick
+Description: Real State Template
+Version: 1.0.0
+Keywords: real state, Template etc. 
+
+*/
+
+/* =========== CSS Files List =========== */
+/* ----- Utilities CSS ----- */
+/* ----- Style CSS ----- */
+/* ----- Home V2 CSS ----- */
+/* ----- Catalog CSS ----- */
+/* ----- Account CSS ----- */
+/* ----- Vendor CSS ----- */
+/* ----- Pages CSS ----- */
+/* =============== CSS Files List =============== */
+
+/* ===== Home-V2 Style INDEX Start ===== */
+/* 
+  1. Header Section
+  2. Hero/Banner Section
+  3. About Section
+  4. Newly listed properties Section
+  5. Discover locations Section
+  6. Top properties on Finder Section
+  7. Find your agent Section
+  8. Latest property news Section
+  9. Footer Section
+  */
+/* ===== Home-V2 Style INDEX End ===== */
+
+/* ================= NEXT CSS FILE ================= */
+/* ----- Catalog CSS ----- */
+/* ================= NEXT CSS FILE ================= */
+
+/* ===== Hero Section START ===== */
+.hero-area-v2 {
+  background-image: url("../assets/images/home-v2/banner-v2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 736px;
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: #1f1b2d;
+  opacity: 0.4;
+  /* border-radius: 12px; */
+  position: absolute;
+}
+
+.banner-content-v2 {
+  height: 736px;
+}
+
+.banner-content-v2 h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--bs-white);
+  z-index: 1;
+}
+
+/* fiter form */
+.filter-area-v2 {
+  z-index: 1;
+}
+
+.search-location-v2 {
+  box-shadow: 0px 2px 2px -2px rgba(31, 27, 45, 0.08),
+    0px 4px 12px rgba(31, 27, 45, 0.08);
+  border-radius: 8px;
+}
+
+.search-location-v2 .form-select {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.rent-wrapper-v2,
+.rent-wrapper-v2 select {
+  border-left: 1px solid var(--bs-gray-300);
+  color: var(--bs-gray-600);
+}
+
+.rent-wrapper-v2:hover,
+.rent-wrapper-v2 select:hover {
+  color: var(--bs-gray-800);
+}
+
+.rent-wrapper-v2:first-child,
+.rent-wrapper-v2:first-child select {
+  border-left: none;
+  color: var(--bs-gray-800);
+}
+
+.search-location-v2 {
+  font-size: 22px;
+}
+
+.search-btn-v2 {
+  background-color: var(--bs-primary);
+  border: none;
+  padding: 14px 32px !important;
+}
+/* ===== Hero Section END ===== */
+
+/* ===== About Section START ===== */
+.about-left-contents .about-description-v2 {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+.about-divider-v2 {
+  border: 1px solid #efecf3;
+  color: var(--bs-gray-300);
+}
+
+.about-statistics-v2 .trustpilot-info img {
+  width: 144px;
+}
+
+.about-statistics-v2 .trustpilot-info h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.about-statistics-v2 .trustpilot-info p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.about-statistics-v2 .property-listings h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.about-statistics-v2 .property-listings p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.about-statistics-v2 .annual-earning h2 {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--bs-gray-900);
+}
+
+.about-statistics-v2 .annual-earning p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.about-illustration-v2 img {
+  width: 526px;
+}
+/* ===== About Section END ===== */
+
+/* ===== Newly listed properties Section START ===== */
+.newly-listed-property-img-v2 img {
+  width: 808px;
+}
+
+.property .badges {
+  z-index: 2;
+}
+
+.property-v2 .property-type {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-primary);
+  text-transform: uppercase;
+}
+
+.property-v2 .property-feature {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--bs-gray-800);
+}
+
+.property-v2 .property-address {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-700);
+}
+
+.property-v2 .property-details > p {
+  color: var(--bs-gray-700);
+  font-size: 16px;
+  font-weight: 700;
+  border-right: 1px solid var(--bs-gray-300);
+}
+
+.property-v2 .property-details > p:last-child {
+  border-right: none;
+}
+
+.property-v2 .property-details i {
+  color: var(--bs-gray-600);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.property-v2 .property-details span {
+  color: var(--bs-gray-600);
+  font-weight: 500;
+}
+
+.property-v2 .property-info {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-700);
+}
+
+/* button */
+.newly-property-button .property-btn {
+  padding: 8px 10px 8px 18px !important;
+  border-radius: 8px 0 0 8px;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: var(--bs-primary);
+  border: none;
+}
+
+.property-btn:hover + .heart-icon-btn {
+  border-left: 1px solid var(--bs-primary);
+}
+
+.newly-property-button .heart-icon-btn {
+  padding: 8px 18px 8px 10px;
+  border-radius: 0 8px 8px 0;
+  font-size: 1.1em;
+  background-color: var(--bs-primary);
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.newly-property-button .heart-icon-btn:hover {
+  border-left: 1px solid var(--bs-primary);
+}
+/* ===== Newly listed properties Section END ===== */
+
+/* ===== Discover Locations START ===== */
+.discover-location {
+  box-shadow: var(--shadow-small);
+  padding: 34px;
+}
+
+.discover-location img {
+  width: 80px;
+}
+
+.discover-location h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.discover-location p {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--bs-gray-600);
+}
+
+.discover-location-list ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--bs-gray-800);
+}
+/* ===== Discover Locations END ===== */
+
+/* ===== Top properties on Finder Section START ===== */
+.top-properties .property-image-single img {
+  height: 540px;
+}
+
+.top-properties .property-img-second-col-top img {
+  height: 220px;
+}
+
+.top-properties .property-img-second-col-bottom img {
+  height: 296px;
+}
+/* ===== Top properties on Finder Section END ===== */
+
+/* ===== Find your agent Section START ===== */
+.find-agent {
+  background-color: var(--bs-gray-100);
+  border-radius: 12px;
+  padding: 80px 20px;
+}
+
+.find-agent h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.find-agent .agent-description {
+  width: 70%;
+  color: var(--bs-gray-700);
+}
+
+.find-agent-pictures img {
+  width: 110px !important;
+}
+
+.ms-n3 {
+  margin-left: -1.5rem !important;
+}
+
+.agent-btn {
+  padding: 14px 32px;
+  background-color: var(--bs-primary) !important;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 174px;
+}
+/* ===== Find your agent Section END ===== */
+
+/* ===== Latest property news Section START ===== */
+.latest-property-news-v2 .featured-news {
+  box-shadow: var(--shadow-small);
+}
+
+.latest-property-news-v2 .featured-news-img img {
+  width: 306px;
+  height: 100%;
+}
+
+.news-author-info {
+  bottom: 24px;
+}
+
+.news-author-info h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.news-author-info p {
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--bs-gray-700);
+}
+
+.latest-property-news-v2 .hr-vertical {
+  width: 1px;
+  height: 100%;
+}
+
+.latest-property-news-v2 hr {
+  background-color: var(--bs-gray-300);
+}
+
+.sign-up-form h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.sign-up-form p {
+  color: var(--bs-gray-700);
+}
+
+.subscribe-form-v2 .form-group {
+  width: 416px;
+  height: 60px;
+  background-color: var(--bs-white);
+  box-shadow: var(--shadow-small);
+  border-radius: 8px;
+  border: 1px solid var(--bs-gray-300);
+}
+
+.subscribe-form-v2 .input-group i {
+  font-size: 18px;
+  color: var(--bs-gray-600) !important;
+  padding-top: 5px !important;
+}
+
+.subscribe-form-v2 .input-group input {
+  box-shadow: none;
+}
+
+/* ===== Latest property news Section END ===== */
+
+/* ===== three Card Section START ===== */
+.three-card:hover {
+  background-color: var(--bs-white);
+  box-shadow: var(--shadow-default);
+}
+
+.card {
+  cursor: pointer;
+}
+
+.calculate-cost-property {
+  background: rgba(253, 188, 49, 0.1);
+}
+
+.visit-help-center {
+  background: rgba(60, 118, 242, 0.1);
+}
+
+.how-to-work {
+  background: rgba(7, 201, 139, 0.1);
+}
+
+.three-card h5 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--bs-gray-900);
+}
+
+.three-card h5 {
+  color: var(--bs-gray-700);
+}
+
+.three-card h5 {
+  color: var(--bs-gray-700);
+}
+
+.three-card button {
+  color: var(--bs-gray-700);
+  background-color: transparent;
+  border: transparent;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.calculate-cost-property button {
+  color: #fdbc31;
+}
+
+.visit-help-center button {
+  color: var(--bs-info);
+}
+
+.how-to-work button {
+  color: var(--bs-success);
+}
+/* ===== three Card Section END ===== */
