@@ -14,6 +14,20 @@
 /* ========== Tablets ========== */
 /* 'lg' applies to medium devices (tablets, less than 992px) */
 @media (max-width: 992px) {
+  .search-location-v2 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-location-v2 .rent-wrapper-v2 {
+    width: 100%;
+    padding: 0;
+    border-left: transparent;
+  }
+
+  .search-location-v2 .rent-wrapper-v2:first-child {
+    padding-right: 17px !important;
+  }
 }
 
 /* ========== landscape Phone ========== */
